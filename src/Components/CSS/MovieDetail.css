@@ -1,0 +1,12 @@
+#movie-detail {
+  display: flex;
+  margin: 60px;
+  margin-left: 80px;
+}
+#movie-detail-image {
+  margin-right: 40px;
+}
+#movie-detail-contents-description {
+  width: 900px;
+  line-height: 1.8;
+}

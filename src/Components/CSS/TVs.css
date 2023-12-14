@@ -1,0 +1,50 @@
+.app-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.tv {
+  width: 250px;
+  height: 400px;
+  margin: 8px;
+  background-color: rgba(12, 12, 112, 0.686);
+  position: relative;
+}
+.tvImageContainer {
+  width: 250px;
+  height: 355px;
+}
+.tvImage {
+  width: 250px;
+  height: 355px;
+  object-fit: fill;
+}
+.tvContent {
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  margin-top: 12px;
+  font-size: smaller;
+}
+.description {
+  display: none;
+  background-color: rgba(78, 78, 85, 0.399);
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 400px;
+  font-size: 11px;
+  line-height: 135%;
+  color: white;
+}
+.descriptionContent {
+  margin: 10px;
+}
+.descriptionTitle {
+  font-weight: 800;
+}
+.tv:hover .description {
+  display: block;
+}

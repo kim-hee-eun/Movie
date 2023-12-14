@@ -1,0 +1,50 @@
+.app-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.movie {
+  width: 250px;
+  height: 400px;
+  margin: 8px;
+  background-color: rgba(12, 12, 112, 0.686);
+  position: relative;
+}
+.movieImageContainer {
+  width: 250px;
+  height: 355px;
+}
+.movieImage {
+  width: 250px;
+  height: 355px;
+  object-fit: fill;
+}
+.movieContent {
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  margin-top: 12px;
+  font-size: smaller;
+}
+.description {
+  display: none;
+  background-color: rgba(78, 78, 85, 0.399);
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 400px;
+  font-size: smaller;
+  color: white;
+}
+.descriptionContent {
+  margin: 10px;
+}
+.descriptionTitle {
+  font-size: larger;
+  font-weight: 800;
+}
+.movie:hover .description {
+  display: block;
+}
