@@ -6,8 +6,7 @@ import { useState } from "react";
 export default function Login() {
   const emailRegEx =
     /^[A-Za-z0-9]([-_.]?[A-Za-z0-9])*@[A-Za-z0-9]([-_.]?[A-Za-z0-9])*\.[A-Za-z]{2,3}$/;
-  const regexPw =
-    /^[A-Za-z0-9`~!@#\$%\^&\*\(\)\{\}\[\]\-_=\+\\|;:'"<>,\./\?]{8,20}$/;
+  const regexPw = /^[A-Za-z0-9]{8,20}$/;
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
